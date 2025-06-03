@@ -7,7 +7,7 @@ cask "foray" do
   desc "Interactive signal processing toolkit"
   homepage "https://github.com/gpilab/foray/"
 
-  depends_on ["python@3.13"]
+  depends_on formula: "python@3.13"
 
   app "Foray.app", target: "~/Applications/Foray.app"
   binary "Foray.app/Contents/MacOS/foray"
