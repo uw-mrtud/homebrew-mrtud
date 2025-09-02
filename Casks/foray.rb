@@ -1,8 +1,8 @@
 cask "foray" do
-  version "0.1.6"
-  sha256 "f43ba0ed1821bf7c7ca0356f87291a9e6ca86cee1c1ec78e04ce543648501b55"
+  version "0.1.7"
+  sha256 :no_check
 
-  url "https://github.com/uw-mrtud/foray/releases/download/v0.1.5/Foray.zip"
+  url "https://github.com/uw-mrtud/foray/releases/download/v0.1.7/Foray-v0.1.7.zip"
   name "Foray"
   desc "Interactive signal processing toolkit"
   homepage "https://github.com/gpilab/foray/"
