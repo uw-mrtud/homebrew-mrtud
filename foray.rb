@@ -7,7 +7,7 @@ class Foray < Formula
   license "MIT"
 
   depends_on "rust" => :build
-  depends_on "python@3.13"
+  depends_on "python@3.14
 
   # Additional dependency
   # resource "" do
