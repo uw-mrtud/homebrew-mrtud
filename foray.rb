@@ -15,7 +15,7 @@ class Foray < Formula
   # end
 
   def install
-    system "cargo", "install", *std_cargo_args, "--path=foray_ui"
+    system "cargo", "install", "--locked", "--root", prefix, "--path", "foray_ui/"
   end
 
 end
