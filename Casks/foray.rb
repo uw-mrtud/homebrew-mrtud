@@ -1,6 +1,6 @@
 cask "foray" do
-  version "0.1.18"
-  sha256 "37f9106d2391d0045c3b0bf69f4c0507d65cbf3c8d4b6fdaf747db57a1627794"
+  version "0.1.19"
+  sha256 "1e04ea5b9f913e8921fa3556d85a4cce83aedecc9c05cc3911079333e550c934"
 
   url "https://github.com/uw-mrtud/foray/releases/download/v#{version}/Foray-v#{version}.zip"
   name "Foray"
