@@ -9,6 +9,8 @@ cask "foray" do
 
   depends_on formula: "python@3.13"
 
+  depends_on macos: ">= :big_sur"
+
   app "Foray.app", target: "~/Applications/Foray.app"
   binary "Foray.app/Contents/MacOS/foray"
 end
