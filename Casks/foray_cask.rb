@@ -1,4 +1,4 @@
-cask "foray" do
+cask "foray_cask" do
   version "0.1.19"
   sha256 "1e04ea5b9f913e8921fa3556d85a4cce83aedecc9c05cc3911079333e550c934"
 
