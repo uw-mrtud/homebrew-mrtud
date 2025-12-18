@@ -1,5 +1,5 @@
 cask "foray" do
-  version "0.1.13"
+  version "0.1.14"
   sha256 "a1c0d0878d8a02dd1b07170e54e21aae09956e0253582b0ed07f16443e726521"
 
   url "https://github.com/uw-mrtud/foray/releases/download/v#{version}/Foray-v#{version}.zip"
@@ -7,9 +7,8 @@ cask "foray" do
   desc "Interactive signal processing toolkit"
   homepage "https://github.com/gpilab/foray/"
 
-  depends_on formula: "python@3.13"
-
   depends_on macos: ">= :big_sur"
+  depends_on formula: "python@3.13"
 
   app "Foray.app", target: "~/Applications/Foray.app"
   binary "Foray.app/Contents/MacOS/foray"
